@@ -1,0 +1,3 @@
+Use slide window to get substrings without duplicate chars.
+Time complexity : O(n). Index j will iterate nn times.
+Space complexity (HashMap) : O(min(m,n)).

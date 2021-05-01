@@ -1,0 +1,12 @@
+Naive Solution:
+Merge the two arrays and then find the median.
+Time Complexity: O(m+n) due to the merge time.
+Space Complexity: O(m+n), can be optimized to O(1) by storing only the pointers and most middle 1 or 2 numbers.
+
+Binary Search Solution:
+Do binary search on the shorter array. (Details explanation: https://medium.com/@hazemu/finding-the-median-of-2-sorted-arrays-in-logarithmic-time-1d3f2ecbeb46)
+
+Time complexity: O(m). (m is the length of the shorter array)
+At first, the searching range is [0, m]. And the length of this searching range will be reduced by half after each loop. So, we only need log(m) loops. Since we do constant operations in each loop, so the time complexity is O(log(m)).
+
+Space complexity: O(1). (ignore the space we use to swap the two arrays)
