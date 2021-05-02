@@ -1,0 +1,3 @@
+Draw graphs and find the rules.
+Time Complexity: O(n), where n =len(s). Each index is visited once.
+Space Complexity: O(1) if return string is not considered extra space (O(n) for the returning string).
