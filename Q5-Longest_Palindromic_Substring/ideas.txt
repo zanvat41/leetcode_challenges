@@ -1,0 +1,11 @@
+Think of a string "abcccba". A palindrome substring can have odd length such as "ccc" or even length "cc".
+In order to expand around a center, we can put a boundary character between every two characters.
+Then it will look like a|b|c|c|c|b|a". However, we don't have to build such a string.
+If we want to expand around an actual character with index i in the input string, we just start with left index=right index=i.
+If we want to expand around a "|" between characters indices i and i+1, we just start with left index=i, right index=i+1.
+
+
+Time complexity : O(n^2). Since expanding a palindrome around its center could take O(n) time, there are 2n-1 centers,
+so the overall complexity is O(n^2).
+
+Space complexity : O(1).
