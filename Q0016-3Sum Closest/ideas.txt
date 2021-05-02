@@ -1,0 +1,5 @@
+Similar to 3Sum's two pointers method.
+
+Time complexity: O(n^2).
+
+Space Complexity: from O(logn) to O(n), depending on the implementation of the sorting algorithm.
