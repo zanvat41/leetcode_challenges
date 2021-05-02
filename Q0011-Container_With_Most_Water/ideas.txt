@@ -1,0 +1,5 @@
+The l and r pointers start from both ends. Since the area is limited by the shorted height,
+we move the pointer of the shorter height on each step.
+
+Time complexity: O(n).
+Space complexity: O(1).
