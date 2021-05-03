@@ -1,0 +1,5 @@
+Time complexity: O((4^N)*N).
+The worst-case is where the input consists of only 7s and 9s. In that case, we have to explore 4 additional paths for every extra digit.
+Then, for each combination, it costs up to N to build the combination.
+
+Space complexity: O(N).
