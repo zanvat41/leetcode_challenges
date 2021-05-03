@@ -1,0 +1,13 @@
+Count size solution:
+Go through the list once and get the size. Then remove the (size-n)th node.
+
+Time complexity: O(N).
+Space complexity: O(1).
+
+1 pass solution:
+Use 2 pointers. The first pointer is n nodes aways from the second one.
+Keep moving both pointers one by one until the first pointer is pointing to null node.
+Then do remove second.next.
+
+Time complexity: O(N).
+Space complexity: O(1).
