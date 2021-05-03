@@ -1,0 +1,4 @@
+List's swapping nodes problem.
+
+Time Complexity: O(N) since we process each node exactly twice. Once when we are counting the number of nodes in each recursive call, and then once when we are actually reversing the sub-list.
+Space Complexity: O(1).

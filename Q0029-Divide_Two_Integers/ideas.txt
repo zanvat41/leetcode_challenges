@@ -1,0 +1,14 @@
+Time Complexity : O((logn)^2).
+
+We started by performing an exponential search to find the biggest number that fits into the current dividend.
+This search took O(logn) operations.
+After doing this search, we updated the dividend by subtracting the number we found.
+In the worst case, we were left with a dividend slightly less than half of
+the previous dividend (if it was more than half, then we couldn't have found the maximum number that fit in by doubling!).
+
+With the dividend at least halving after each one, there couldn't have been more than O(logn) of them.
+
+So combined together, in the worst case, we have O(logn) searches with each search taking O(logn) time.
+This gives us O((logn)^2) as our total time complexity.
+
+Space Complexity : O(1)O(1).
