@@ -1,0 +1,17 @@
+itSolution:
+Pairing up the k lists, and merge the pairs. Then repeat.
+For example, we have l1, l2, l3, l4, l5.
+We first merge l1 and l2 to become nl1, merge l2 and l3 to be nl2, and make l5 nl3.
+Then we have nl1, nl2, nl3. We just need to repeat the last step.
+
+Time complexity: O(Nlogk).
+Space complexity: O(1).
+
+recSolution:
+Do divide and conquer.
+Split the original k lists to left and right part.
+Then merge the left and right part separately to have left merged list and right merged list.
+Then we merge left merged list and right merged list.
+
+Time complexity: O(Nlogk).
+Space complexity: O(N).
