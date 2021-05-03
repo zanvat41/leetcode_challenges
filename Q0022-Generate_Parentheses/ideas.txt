@@ -1,0 +1,4 @@
+There are (4^n)/(n*sqrt(n)) elements possible.
+
+Time Complexity : (4^n)/(sqrt(n)). Each valid sequence has at most n steps during the backtracking procedure.
+Space Complexity : (4^n)/(sqrt(n)). Using O(n) space to store each element.
