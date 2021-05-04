@@ -1,0 +1,15 @@
+First, we need to find the right most index i in the array where there is at least one
+number nums[k] in nums[i+1 : nums.length - 1] that's larger than nums[i].
+In other words, the right most i where nums[i] < nums[i+1].
+
+If we can't find such an index, it means the array is sorted in descending order.
+We need to reverse the array.
+
+If we find such an index i, it means that nums[i + 1 : nums.length -1] is sorted in descending order.
+Then we need to find out the index j of the smallest number nums[j], that's larger than nums[i],
+in nums[i+1 : nums.length -1].
+We sway nums[i] and nums[j], then reverse nums[i + 1 : nums.length -1].
+
+Time complexity: O(N).
+Space complexity: O(1).
+
