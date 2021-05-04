@@ -1,0 +1,28 @@
+dp solution:
+dp[i] represents the length of the longest valid substring ending at ith index.
+Fill dp with 0's initially. We keep dp[i] = 0 if s[i] = '('.
+
+If s[i] = ‘)’
+1. s[i - 1] = ‘(’, i.e. string looks like ``.......()", then
+dp[i]=dp[i−2]+2
+
+2. s[i−1]=‘)’, i.e. string looks like ``.......))" \Rightarrow‘‘.......))", then
+if s[i−dp[i−1]−1]=‘(’ then
+dp[i]=dp[i−1]+dp[i−dp[i−1]−2]+2
+Here, s[i−dp[i−1]−1]s[i−dp[i−1]].....s[i-1]s[i] looks like "((...valid parentheses substring...))".
+
+Time and Space complexity: O(N).
+
+2 counters solution:
+In this approach, we make use of two counters left and right.
+First, we start traversing the string from the left to the right.
+For every ‘(’ encountered, we increment the left counter,
+and for every ‘)’ encountered, we increment the right counter.
+Whenever left = right, we calculate the length of the current valid string
+and keep track of maximum length substring found so far.
+If right > left we reset left and right to 0.
+
+Next, we start traversing the string from right to left and similar procedure is applied.
+
+Time complexity: O(N).
+Space complexity: O(1).
