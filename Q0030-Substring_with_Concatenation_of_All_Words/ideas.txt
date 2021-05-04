@@ -1,0 +1,26 @@
+Use slide window.
+
+Let n be the length of a word in the input array. Then the start index of each window is [0, n).
+Let m be the length of the array.
+
+然后枚举s中的单词，令start = i表示当前窗口的起点，令j = i表示当前枚举的字符串s的起点，每次枚举结束j+= word_len
+Then we start to expand the window. Initiate the left bound of window start=i, and the index j of first character
+of current substring j=i, every time we check cur=substring(j, j+n), we update j = j+n. We used count to mark
+how many valid words are already in the current window.
+(If we do not use count, this can be calculated with start, j and n) also.
+
+In a valid window find[cur] <= need[cur].
+If adding cur to the window makes the current window invalid,
+it could be one of the following cases:
+1. cur is not in input array:
+we need move the left bound of the window to the current right bound of window,
+and reset the map find[]
+2. find[cur] > need[cur]:
+we need move the left bound of the window n by n,
+and update the map find[] accordingly,
+until find[cur] <= need[cur]
+
+If we have a valid window with size = m*n, then we add start to the return list.
+
+Time complexity: O(n * len(s) / n * 2)= O(len(s) * 2) (Or just O(len(s)))
+Space complexity: O(n*m)
