@@ -1,0 +1,13 @@
+two passes solution:
+1. Use binary search to find the pivot where the array is rotated.
+2. Do binary search on the left side or right side to find the target.
+
+Time complexity: O(logN).
+Space complexity: O(1).
+
+two passes solution:
+The basic idea is to combine both round of binary search into one. We do it by combining the
+condition checks together.
+
+Time complexity: O(logN).
+Space complexity: O(1).
