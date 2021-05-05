@@ -1,0 +1,8 @@
+Use dfs.
+
+Let N be the number of candidates, T be the target value, and M be the minimal value among the candidates.
+Time Complexity: O(N^((T/M)+1)).
+As we know, the maximal number of nodes in N-ary tree of T/M height would be N^((T/M)+1).
+
+Space Complexity: O(T/M)
+(Note: we did not take into the account the space used to hold the final results for the space complexity.)
