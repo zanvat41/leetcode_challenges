@@ -1,0 +1,4 @@
+Find left bound and right bound separately with binary search.
+
+Time complexity: O(logN).
+Space complexity: O(1).
