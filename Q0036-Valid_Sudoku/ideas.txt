@@ -1,0 +1,3 @@
+If this is N*N matrix sudoku,
+
+Time and Space complexity: O(N*N).

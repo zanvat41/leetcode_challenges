@@ -1,0 +1,6 @@
+Use dfs.
+
+If this is N*N matrix sudoku,
+
+Time complexity: O(((N!)^N).
+Space complexity: O(N*N).
