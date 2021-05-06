@@ -1,0 +1,5 @@
+For every positive number n < nums.length in the given array nums,
+make nums[n-1] = n.
+
+Time complexity: O(N).
+Space complexity: O(1).
