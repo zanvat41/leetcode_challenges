@@ -1,0 +1,17 @@
+We just need to modify Q39 solution a little:
+Approach 1: Use sorting and set to avoid duplicate lists
+Similar to q39 solution with a little changes:
+1. Need to sort the array first
+2. Skip backtracking on current index,
+if current index element in array equals to current index - 1 element in the array
+3. The next recursive step starts with current index+1 instead of current index
+
+Time Complexity: max(O(N^((T/M)+1)), "java array sorting time complexity" ).
+Space Complexity: max(O(T/M), "java array sorting space complexity").
+
+Approach 2: Count the appearance of each unique number. A
+Then use the generated counter table during the construction of the combination.
+
+Time Complexity: O(N^((T/M)+1)).
+Space Complexity: O(T/M).
+
