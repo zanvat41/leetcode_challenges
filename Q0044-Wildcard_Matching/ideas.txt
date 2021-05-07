@@ -1,0 +1,7 @@
+When we see a '*', assume "matches zero characters" and proceed p further.
+If this assumption would lead in "no match" situation, then backtrack :
+come back to the '*', assume now that it matches one character and proceed again.
+Again "no match" situation? Backtrack again...
+
+Time complexity: O(SP)
+Space complexity: O(1)
