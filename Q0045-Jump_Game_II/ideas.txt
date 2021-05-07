@@ -1,0 +1,5 @@
+Use greedy approach: always jump to the place that will take us the farthest.
+
+Time Complexity: O(N)
+
+Space Complexity: O(1)
