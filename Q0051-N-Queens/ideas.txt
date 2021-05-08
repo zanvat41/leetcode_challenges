@@ -1,0 +1,19 @@
+Use backtracking.
+
+Conside a "X" on the board,
+.     .
+ .  .
+   .
+ .  .
+.     .
+
+Assume the middle dot's position is (i, j):
+every dot(i1,j1) on left dash of "X"
+has i1+j1 = i+j;
+every dot(i1,j1) on right dash of "X"
+has i1-j1 = i-j;
+
+Time Complexity: O(N!).
+Space Complexity: O(N^2).
+
+
