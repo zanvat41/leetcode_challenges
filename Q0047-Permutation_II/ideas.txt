@@ -1,0 +1,5 @@
+Approach 1:
+Use same algorithm as q46, but use set to record each permutation.
+
+Appraoch 2:
+Count and group each number with map, then do permutation.
