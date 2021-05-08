@@ -1,0 +1,4 @@
+Sort then merge.
+
+Time complexity: O(NlogN).
+Space complexity: O(logN).
