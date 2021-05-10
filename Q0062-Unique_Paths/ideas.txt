@@ -1,0 +1,12 @@
+If we use 2-d array to do dp,
+then for all i, dp[i][n - 1] = 1 (Last column, can only move straight down, 1 choice)
+and for all j, dp[m-1][j] = 1 (Last row, can only move straight right, 1 choice).
+Otherwise, dp[i][j] = dp[i+1][j] + dp[i][j+1]. (dp[i+1][j] means move down, dp[i][j+1] means move right)
+We need to return dp[0][0].
+
+However, we can use 1-d array by refreshing it row by row bottom to top.
+Initially, fill dp with 1's to represent the bottom most column.
+Then, starting from right to left, dp[j] = dp[j+1](move right) + dp[j] (move down).
+
+Time complexity: O(MN).
+Space complexity: O(N).
