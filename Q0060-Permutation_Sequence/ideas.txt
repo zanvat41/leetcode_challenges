@@ -1,0 +1,4 @@
+Starting from left to right, the first position has n choices, second has n-1,.....,last has 1 choice.
+
+Time Complexity: O(N^2);
+Space Complexity: O(N).
