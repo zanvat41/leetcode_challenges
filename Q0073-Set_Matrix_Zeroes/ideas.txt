@@ -1,0 +1,4 @@
+Use the first cell of every row and column as a flag. This flag would determine whether a row or column should set to zero.
+
+Time Complexity : O(MN)
+Space Complexity : O(1)
