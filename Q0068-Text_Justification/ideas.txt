@@ -1,0 +1,2 @@
+Time complexity: O(N). (N is length of input array)
+Space complexity: O(1). (Not counting the result)
