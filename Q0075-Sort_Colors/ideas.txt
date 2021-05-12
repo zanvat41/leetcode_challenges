@@ -1,0 +1,15 @@
+Two Passes Solution:
+First pass, count the appearances of the three numbers.
+Second pass, rewrite the array.
+
+One Pass Solution:
+Algorithm 1:
+Expand 0's boundary from left to right, expand 2's boundary from right to left.
+
+Algorithm 2:
+Add the current number to the first position of its group by moving everything
+after it one position backward.
+
+
+Time Complexity: O(N).
+Space Complexity: O(1).
