@@ -1,0 +1,9 @@
+For every number in the matrix, all numbers on the same row on its left is smaller than itself;
+all numbers on the same column below it is larger than itself.
+So do search starting from top right position.
+
+Time complexity: O(m+n).
+Space complexity: O(1).
+
+Otherwise, we can do some math on the indices and make the matrix a sorted array,
+then do binary search. Time complexity will be O(log(mn))=O(logm+logn) for this.
