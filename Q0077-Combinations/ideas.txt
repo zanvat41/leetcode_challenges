@@ -1,0 +1,3 @@
+Use backtracking.
+
+Time and Space complexity: O(C(n,k)).
