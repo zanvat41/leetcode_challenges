@@ -1,0 +1,3 @@
+dp[i][j] is minDistance(word1[1....i], word2[1....j]).
+
+Time and Space complexity: O(mn).
