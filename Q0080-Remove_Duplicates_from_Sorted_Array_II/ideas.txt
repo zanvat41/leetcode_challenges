@@ -1,0 +1,14 @@
+Two pointers.
+
+One is to create the new array (i), one is used to iterate the original elements in the array (n).
+
+We update i only in 2 conditions (except for the first 2 elements):
+1. nums[i-1] = nums[n], and nums[i-1] != nums[i-2], then do nums[i++] = nums[n].
+(One number can show up at most twice)
+2. nums[i-1] != nums[n], then do nums[i++] = nums[n].
+
+Since the original array is sorted, and the new array should also be sorted,
+for both condition, we can conclude that we only update i when nums[n] > nums[i-2].
+
+Time Complexity: O(N).
+Space Complexity: O(1).
