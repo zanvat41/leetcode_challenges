@@ -1,0 +1,5 @@
+Solution 1: Use same solution with q78, but sort the array first,
+and use Set to record subsets instead of using List before return.
+
+Solution 2:
+Sort array first, then skip duplicate numbers when backtracking.
