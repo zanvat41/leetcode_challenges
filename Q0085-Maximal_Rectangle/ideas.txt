@@ -1,0 +1,5 @@
+The basic idea is to solve this question with q84.
+We are building histograms, and calling q84 algorithm to find the maximum area, row by row.
+
+Time complexity: O(mn);
+Space complexity: O(n);
