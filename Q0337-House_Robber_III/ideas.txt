@@ -1,0 +1,18 @@
+Recursion Solution:
+Use a helper function which receives a node as input and returns a two-element array,
+where the first element represents the maximum amount of money the thief can rob if starting from this node without robbing this node,
+and the second element represents the maximum amount of money the thief can rob if starting from this node and robbing this node.
+
+Time and Space Complexity: O(N).
+
+Recursion with Memoization:
+Similar to above solution, but use global maps to keep the two elements instead.
+
+Time and Space Complexity: O(N).
+
+dp Solution:
+Transform the tree from node-based into an array-based tree and a map graph.
+Then create two DP arrays, where dp_rob[i] represents the maximum amount of money the thief can rob if starting from node i with robbing this node,
+and dp_not_rob[i] represents the maximum amount of money the thief can rob if starting from node i without robbing this node.
+
+Time and Space Complexity: O(N).
