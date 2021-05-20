@@ -1,0 +1,29 @@
+/**
+ * Let F(i, j, k) = whether the substring S1[i..i + k - 1] is a scramble of S2[j..j + k - 1] or not
+ * Since each of these substrings is a potential node in the tree, we need to check for all possible cuts.
+ * Let q be the length of a cut (hence, q < k), then we are in the following situation:
+ *
+ * S1 [   x1    |         x2         ]
+ *    i         i + q                i + k - 1
+ *
+ * here we have two possibilities:
+ *
+ * S2 [   y1    |         y2         ]
+ *    j         j + q                j + k - 1
+ *
+ * or
+ *
+ * S2 [       y1        |     y2     ]
+ *    j                 j + k - q    j + k - 1
+ *
+ * which in terms of F means:
+ *
+ * F(i, j, k) = for some 1 <= q < k we have:
+ *  (F(i, j, q) AND F(i + q, j + q, k - q)) OR (F(i, j + k - q, q) AND F(i + q, j, k - q))
+ *
+ * Base case is k = 1, where we simply need to check for S1[i] and S2[j] to be equal
+ * */
+
+
+
+Time and Space Complexity: O(N^3)
