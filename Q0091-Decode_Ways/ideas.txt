@@ -1,0 +1,7 @@
+Three situations:
+1. numDecodings(s[0...n]) = 0
+2. numDecodings(s[0...n]) = numDecodings(s[1...n])
+3. numDecodings(s[0...n]) = numDecodings(s[1...n]) + numDecodings(s[2...n])
+
+
+Time: O(N).
