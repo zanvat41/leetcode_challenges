@@ -1,0 +1,2 @@
+Time complexity : here is not more than 27 combinations to check.
+Space complexity : constant space to keep the solutions, not more than 19 valid IP addresses.
