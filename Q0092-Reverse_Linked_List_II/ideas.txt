@@ -1,0 +1,4 @@
+Use algorithm in q206.
+
+Time Complexity: O(N).
+Space Complexity: O(1).
