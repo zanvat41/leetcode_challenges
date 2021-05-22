@@ -1,0 +1,4 @@
+Similar ideas as q96.
+
+Time Complexity: G[n]. (See Q96 for G[n] definition).
+Space Complexity: n*G[n]. We keep G[n] trees, and each has n elements.
