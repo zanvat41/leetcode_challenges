@@ -1,0 +1,22 @@
+DP solution:
+The basic idea to solve this question is to do:
+    public int numTrees(int n) {
+        if(n == 0) return 1;
+        int res = 0;
+        for(int i = 0; i < n; i++) {
+            res += numTrees(i) * numTrees(n-i-1);
+        }
+        return res;
+    }
+We use G[i] to store numTrees(i) to avoid duplicate calculation.
+
+Time Complexity: O(N^2).
+Space Complexity: O(N).
+
+
+Math Solution:
+Actually, as it turns out, the sequence of G(n) function results is known as Catalan number Cn.
+We can just use the formula.
+
+Time complexity : O(N).
+Space complexity : O(1).
