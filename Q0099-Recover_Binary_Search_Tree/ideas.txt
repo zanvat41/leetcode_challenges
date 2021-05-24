@@ -1,0 +1,10 @@
+Inorder traversal of BST is an array sorted in the ascending order. So we just need to do:
+
+1. Construct inorder traversal of the tree. It should be an almost sorted list where only two elements are swapped.
+
+2. Identify two swapped elements x and y in an almost sorted array in linear time.
+
+3. Traverse the tree again. Change value x to y and value y to x.
+
+
+Time and Space Complexity: O(N).
