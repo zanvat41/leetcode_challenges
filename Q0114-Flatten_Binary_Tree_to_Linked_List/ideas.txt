@@ -1,0 +1,7 @@
+For a current node, we will check if it has a left child or not.
+If it does, we will find the last node in the rightmost branch of the subtree rooted at this left child.
+Once we find this "rightmost" node, we will hook it up with the right child of the current node.
+
+
+Time Complexity: O(N).
+Space Complexity: O(1).
