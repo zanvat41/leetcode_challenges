@@ -1,0 +1,14 @@
+Let m be s.length() and n be t.length().
+If we are using 2D array, dp[i][j] is numDistinct(s[i...m], t[j...n]).
+If we are skipping s[i], then it is dp[i+1][j];
+If s[i] == t[j] and we are not skipping s[i], then it is dp[i+1][j+1].
+
+So it's not hard to see, for every dp[i][j], it will be invoked at most twice,
+by dp[i-1][j] and dp[i-1][j-1].
+
+Therefore, we can reduce dp to be 1d array.
+
+Time Complexity: O(MN).
+Space Complexity: O(N).
+
+
