@@ -1,0 +1,2 @@
+Use dp. Let N be number of rows.
+Time and Space Complexity: O(N^2).
