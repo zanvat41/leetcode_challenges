@@ -1,0 +1,4 @@
+Basic idea is to use bfs.
+The Bi-Directional solution is to do bfs on both direction at the same time.
+
+Time and Space Complexity: O(M^2×N), where M is the length of words and N is the total number of words in the input word list.
