@@ -1,0 +1,23 @@
+DP Solution:
+Since you have to finish the first sell transaction before you perform the second buy transaction,
+the max profit would be maxProfit(prices[0...i])+maxProfit(prices[i+1....n) for some i.
+So we are having 2 dp arrays,
+leftProfits[0...n] keeps track of the first transaction;
+rightProfits[0...n] keeps track of the second transaction.
+
+Time and Space Complexity: O(N).
+
+
+
+One Pass Solution:
+At the beginning, you have $0 in your account.
+After each day, you might be in each of the five states:
+1. You did nothing yet.
+2. You completed the first buying transaction. Then your account have $"buy1".
+3. You completed the first selling transaction. Then your account have $"sell1".
+4. You completed the second buying transaction. Then your account have $"buy2".
+5. You completed the second selling transaction. Then your account have $"sell2".
+
+Time Complexity: O(N).
+Space Complexity: O(1).
+
