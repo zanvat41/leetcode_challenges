@@ -1,0 +1,5 @@
+Put all the numbers in hash set.
+Then start counting the streak with the smallest number in that streak only.
+We check this but checking if num-1 is in the set. If not, then num is the start of the streak.
+
+Time and Space Complexity: O(N).
