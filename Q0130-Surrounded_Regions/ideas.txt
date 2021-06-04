@@ -1,0 +1,4 @@
+Use dfs to expand the areas connected with O's. Similar idea as Q695.
+However, we only need to start expanding those O's on boarders.
+
+Time and Space Complexity: O(M*N).
