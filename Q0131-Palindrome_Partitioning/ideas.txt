@@ -1,0 +1,7 @@
+First create 2d array to keep track if s.substring(i,j) is palindrome for all substrings.
+Then do dfs.
+
+Time Complexity : O(N*2^N). In the worst case, there could be 2^N possible substrings,
+and it will take O(N) to generate each substring.
+
+Space Complexity: O(N^2).
