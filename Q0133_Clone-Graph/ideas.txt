@@ -1,0 +1,4 @@
+Use dfs.
+
+Time Complexity: O(N+M), where N is a number of nodes (vertices) and M is a number of edges.
+Space Complexity: O(N)O(N)
