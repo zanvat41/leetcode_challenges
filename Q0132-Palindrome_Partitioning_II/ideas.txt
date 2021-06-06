@@ -1,0 +1,3 @@
+Check palindrome and calculate the min at the same time.
+
+Time and Space Complexity: O(N^2).
