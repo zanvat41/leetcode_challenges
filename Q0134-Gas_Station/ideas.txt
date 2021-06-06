@@ -1,0 +1,8 @@
+First, we mark the first index as start position and perform the road trip.
+We use curTank to keep track of the status from start position to ith position.
+We use totalTank to keep track of the status from 1st position to nth position.
+When we encounter a situation that curTank < 0, it means the current start position is invalid.
+Then we need to update the start position and reset curTank.
+
+Time Complexity: O(N).
+Space Complexity: O(1).
