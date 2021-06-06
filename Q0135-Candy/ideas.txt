@@ -1,0 +1,5 @@
+Keep track of the current streak to see if is ascending or descending.
+If the direction changed, updated the total number of candies and reset counters.
+
+Time Complexity: O(N).
+Space Complexity: O(1).
