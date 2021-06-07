@@ -1,0 +1,17 @@
+Hash Map Solution:
+1. Iterate the original list, on each step, build the copied node, connect next pointer,
+and put the original node and the copied node in hash map.
+2. Iterate the original list and the copied list again, then connect the random pointer
+with the help of the hash map.
+
+Time Complexity: O(N).
+Space Complexity: O(1).
+
+
+Constant Space Solution:
+1. Iterate the original list, on each step, build the copied node, and put it after the original list.
+2. Iterate the modified original list, on each step, connect the random pointer of the copied node.
+3. Split the list.
+
+Time Complexity: O(N).
+Space Complexity: O(1).
