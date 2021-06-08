@@ -1,0 +1,12 @@
+Solution 1:
+Use list to store the nodes in order. Then use left and right pointer to iterate the list and connect nodes.
+
+Time Complexity: O(N).
+Space Complexity: O(N).
+
+
+Solution 2:
+Reverse the second half of the list. Then merge the first half and second half.
+
+Time Complexity: O(N).
+Space Complexity: O(1).
