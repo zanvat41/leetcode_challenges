@@ -1,0 +1,6 @@
+Do dfs with memo.
+
+Let N be the length of the input string and W be the number of words in the dictionary.
+
+Time Complexity: O(N ^ 2 + 2^N + W).
+Space Complexity: O((2 ^ N) * N + W)
