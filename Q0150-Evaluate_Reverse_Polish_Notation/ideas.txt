@@ -1,0 +1,4 @@
+Use stack to store the number.
+Once encounter operator, pop the two top numbers and do calculation, then push the result back to stack.
+
+Time and Space Complexity: O(N).
