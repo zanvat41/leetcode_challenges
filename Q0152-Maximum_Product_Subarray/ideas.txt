@@ -1,0 +1,6 @@
+Similar idea as Q53 Kadane's Algorithm。
+However, since negative * negative = positive,
+we need to keep track both max_local(positive) and max_min(negative).
+
+Time Complexity: O(N).
+Space Complexity: O(1).
