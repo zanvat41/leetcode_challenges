@@ -1,0 +1,4 @@
+Use binary search to find the pivot.
+
+Time Complexity: O(logN).
+Space Complexity: O(1).
