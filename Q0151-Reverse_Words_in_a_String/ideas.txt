@@ -1,0 +1,2 @@
+Time Complexity: O(N^2), because substring is O(N).
+Space Complexity: O(1), except for the space used to keep the result.
