@@ -1,0 +1,4 @@
+Use binary search, keep searching on the ascending direction.
+
+Time Complexity: O(logN).
+Space Complexity: O(1).
