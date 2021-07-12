@@ -1,0 +1,8 @@
+A simple solution is to use a hash map to count the appearance of each substring of length 10.
+
+However, we can also used the idea of rolling hash and bit manipulation to calculate the hash code by ourselves.
+
+Time complexity : O(N−L), that is O(N) for the constant L = 10.
+In the loop executed N−L+1 one builds a bitmask in a constant time, that results in O(N−L) time complexity.
+
+Space complexity : O(N−L) to keep the hashset, that results in O(N) for the constant L = 10.
