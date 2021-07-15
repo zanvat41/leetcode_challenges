@@ -1,0 +1,4 @@
+Use dfs.
+
+Time Complexity: O(MN).
+Space complexity : worst case O(MN) in case that the grid map is filled with lands where DFS goes by MN deep.
