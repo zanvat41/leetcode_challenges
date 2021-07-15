@@ -1,0 +1,4 @@
+Use dfs.
+
+Time Complexity: O(N).
+Space complexity: O(H) to keep the recursion stack, where H is a tree height.
