@@ -1,0 +1,6 @@
+Since 0&(1or0) = 0, we just need to find the common prefix of both numbers.
+
+Time Complexity: O(1).Although there is a loop in the algorithm, the number of iterations is bounded by the number of bits that an integer has, which is fixed.
+Therefore, the time complexity of the algorithm is constant.
+
+Space Complexity: O(1). The consumption of the memory for our algorithm is constant, regardless the input.
