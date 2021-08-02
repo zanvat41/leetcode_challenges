@@ -1,0 +1,5 @@
+Store the words in a Trie, and then do backtracking on the board with this trie.
+
+Time complexity: O(M(4⋅(3^L−1))), where M is the number of cells in the board and L is the maximum length of words.
+
+Space Complexity: O(N), where N is the total number of letters in the dictionary.
