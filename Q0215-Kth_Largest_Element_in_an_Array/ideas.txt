@@ -1,0 +1,21 @@
+Method 1 Brute force:
+Loop through the array k times/
+
+Time Complexity: O(KN).
+Space Complexity: O(1).
+
+Method 2 Sorting:
+Time Complexity: O(NlogN).
+Space Complexity: O(logN).
+
+Method 3 Heap:
+Stored the largest k numbers in a heap.
+
+Time Complexity: O(NlogK).
+Space Complexity: O(K).
+
+Method 4 Quick Select:
+Keep finding a random pivot and partition correctly until we get a pivot that is in kth position from the right.
+
+Time complexity : O(N) in the average case, O(N^2) in the worst case.
+Space complexity : O(1).
