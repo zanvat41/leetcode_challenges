@@ -1,0 +1,13 @@
+Start both indexes (insertIndex, i) from 1.
+
+Check if the previous element is different from the current element.
+The previous element is the element just before our i index i.e element present at nums[i-1].
+
+If found different then perform nums[insertIndex] = nums[i] and increment insertIndex by 1.
+
+Increment i index by 1 till we reach end of the array.
+
+
+Time Complexity: O(N), since we only have 2 pointers, and both the pointers will traverse the array at most once.
+
+Space Complexity: O(1), since we are not using any extra space.
