@@ -1,0 +1,5 @@
+Start iterating the arrays from the end.
+
+Time complexity: O(n+m). (m and n are the lengths of the two arrays)
+
+Space complexity: O(1).
