@@ -1,2 +1,9 @@
+For both Solutions:
+
 Time Complexity: O(N).
 Space Complexity: O(1).
+
+
+Solution 2:
+Rotate the array index by index.
+nums[i] move to nums[(i+k) % n], nums[(i+k)%n] to nums[(i+2k)%n]....
