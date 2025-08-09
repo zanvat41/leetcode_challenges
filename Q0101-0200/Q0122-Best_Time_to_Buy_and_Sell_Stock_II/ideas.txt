@@ -1,0 +1,6 @@
+Iterate the array from left to right. Keep recording the min value seen so far,
+also update the result as max(res, price[i] - min)
+
+Time Complexity: O(N).
+Space Complexity: O(1).
+
