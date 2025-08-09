@@ -1,0 +1,7 @@
+When we encounter nums[i]=val, we can swap the current element out with the last
+element and dispose the last one. This essentially reduces the array's size by 1.
+
+Time complexity : O(n).
+Both i and n traverse at most n steps.
+
+Space complexity : O(1).
