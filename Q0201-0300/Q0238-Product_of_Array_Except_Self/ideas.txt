@@ -1,0 +1,5 @@
+Get the prefix and suffix for each element and multiply them.
+
+Time Complexity: O(N).
+Space Complexity: O(1). We use output array to store prefix array and an Integer to store suffix values.
+output array is not counted as extra space based on the problem statement.
