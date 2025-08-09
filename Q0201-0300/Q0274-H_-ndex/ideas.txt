@@ -1,0 +1,4 @@
+Repalce citations[i] with n(citations' length) if citations[i] > n
+
+Time Complexity: O(N).
+Space Complexity: O(1).
