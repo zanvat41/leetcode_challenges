@@ -1,5 +1,4 @@
-Iterate the array from left to right. Keep recording the min value seen so far,
-also update the result as max(res, price[i] - min)
+When the array is increasing, just keep buying and selling on every 2 adjacent days.
 
 Time Complexity: O(N).
 Space Complexity: O(1).
