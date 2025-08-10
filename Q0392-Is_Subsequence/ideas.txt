@@ -1,0 +1,2 @@
+Time Complexity: O(T). (T is length of string t)
+Space Complexity: O(1).
