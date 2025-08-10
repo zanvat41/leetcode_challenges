@@ -1,0 +1,5 @@
+Use two pointers, one starts from left, and the other starts from right.
+
+Time Complexity: O(N).
+Space Complexity: O(1).
+
