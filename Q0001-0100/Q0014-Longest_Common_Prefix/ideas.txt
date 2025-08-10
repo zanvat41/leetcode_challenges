@@ -1,0 +1,7 @@
+Iterate through the strings [S0…Sn], finding at each iteration i the longest common prefix of
+strings LCP(S0,Si). When LCP(S0,Si) is an empty string, the algorithm ends. Otherwise after n
+iterations, the algorithm returns LCP(S0, Sn-1).
+
+
+Time complexity : O(S) , where S is the sum of all characters in all strings.
+Space complexity: O(1).
