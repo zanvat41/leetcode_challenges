@@ -1,0 +1,4 @@
+Iterate string from right to left
+
+Time Complexity: O(N).
+Space Complexity: O(1).
