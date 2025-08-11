@@ -1,0 +1,5 @@
+Use 2 HashMaps to store the 1 to 1 relationship between the characters in the 2 strings.
+
+Time Complexity: O(N)
+
+Space Complexity: O(1) since the size of the ASCII character set is fixed and the keys in our dictionary are all valid ASCII characters according to the problem statement.
