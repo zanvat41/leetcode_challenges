@@ -1,0 +1,4 @@
+Use a character array as map.
+
+Time Complexity: O(N).
+Space Complexity: O(1). Use a character array of size 26.
