@@ -1,4 +1,4 @@
 Use a character array as map.
 
-Time Complexity: O(N).
+Time Complexity: O(N). (N is the size of String magazine).
 Space Complexity: O(1). Use a character array of size 26.
