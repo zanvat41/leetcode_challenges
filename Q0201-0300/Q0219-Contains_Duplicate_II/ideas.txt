@@ -1,0 +1,6 @@
+Use a HashSet as sliding window, to keep numbers from nums[i-k] to nums[i].
+
+Time complexity : O(nlog(min(k,n))). We do n operations of search, delete and insert.
+Each operation costs logarithmic time complexity in the sliding window which size is min(k,n).
+
+Space complexity : O(min(n,k)).
