@@ -1,0 +1,4 @@
+Stack stores int arrays of 2 ints, int[0] is the value added, int[1] is the min so far.
+
+Time Complexity : O(1) for all operations.
+Space Complexity: O(N).
