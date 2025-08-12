@@ -1,0 +1,4 @@
+Sort then merge intervals.
+
+Time complexity: O(NlogN).
+Space complexity: O(logN).
