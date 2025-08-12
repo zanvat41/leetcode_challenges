@@ -1,0 +1,3 @@
+Time Complexity: Time complexity : O(243⋅3+logn+loglogn+logloglogn)... = O(logn).
+
+Space Complexity: O(logn)
