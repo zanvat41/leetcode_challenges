@@ -1,4 +1,5 @@
 Use DFS in this solution. BFS also works.
 
 Time complexity: O(N).
-Space complexity: O(h). h is the height of the tree.
+Space complexity: O(h) for DFS, where h is the height of the tree.
+O(m) for BFS where m is the maximum size of nodes at any level of the tree.
