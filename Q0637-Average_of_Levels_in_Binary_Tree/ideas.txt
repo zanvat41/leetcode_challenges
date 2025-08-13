@@ -1,0 +1,4 @@
+Use DFS in this solution. BFS also works.
+
+Time complexity: O(N).
+Space complexity: O(h). h is the height of the tree.
