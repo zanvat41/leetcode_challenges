@@ -1,0 +1,4 @@
+Find the depth of the tree, and do binary search on the deepest level.
+
+Time Complexity: O(logN).
+Space Complexity: O(1).
