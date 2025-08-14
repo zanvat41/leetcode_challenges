@@ -1,0 +1,5 @@
+Use XOR, since a XOR a = 0, a XOR 0 = a. All the numbers in the input array
+have 2 copies except for the result.
+
+Time Complexity: O(n).
+Space Complexity: O(1).
