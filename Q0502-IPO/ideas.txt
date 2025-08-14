@@ -1,0 +1,11 @@
+1. Sort the projects by increasing capital. Keep a pointer ptr to the first unavailable project in the sorted array.
+
+2. Maintain a priority queue for the profits of available projects. Initially, the priority queue is empty.
+
+3. Do the following k times:
+Add to the priority queue the profits of the newly available projects. We move the pointer through the sorted array when new projects become available.
+If the priority queue is empty, terminate the algorithm.
+The maximum value in the priority queue is the profit of the project we will start now. Increase our capital by this value. Delete it so since we can not use it anymore.
+
+Time Complexity: O(NlogN).
+Space Complexity: O(N).
