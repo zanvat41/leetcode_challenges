@@ -1,0 +1,5 @@
+Use 2 heaps to store the two halves of the data.
+
+Time complexity : O(logN)
+
+Space Complexity: O(N)
