@@ -1,0 +1,4 @@
+Use dp idea. For i>=2, dp[i] = dp[i-1] + dp[i-2]
+
+Time complexity: O(N).
+Space complexity: O(1).
