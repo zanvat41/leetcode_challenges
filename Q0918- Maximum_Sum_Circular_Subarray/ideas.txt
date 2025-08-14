@@ -1,0 +1,10 @@
+The maximum "normal sum" is the Maximum Subarray problem which can be found with Kadane's.
+This case we can refer to Q53.
+
+And the second case is that the "special sum" as the sum of a prefix and a suffix,
+there is a subarray that we don't want in the middle.
+This is the sum of all elements, minus a subarray in the middle.
+In this case, we want to minimize this middle subarray's sum, which we can calculate using Kadane's algorithm as well.
+
+Time Complexity: O(N)
+Space Complexity: O(1)
