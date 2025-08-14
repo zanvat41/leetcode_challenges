@@ -1,0 +1,5 @@
+Count number of 5s.
+
+Time complexity : O(logn).
+
+Space complexity: O(1).
