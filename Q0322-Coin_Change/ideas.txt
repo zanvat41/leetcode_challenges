@@ -1,0 +1,2 @@
+Time complexity : O(S∗n). S is amount, n is size of array.
+Space complexity : O(S).
