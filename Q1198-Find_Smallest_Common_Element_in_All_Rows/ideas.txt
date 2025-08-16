@@ -1,0 +1,2 @@
+Time complexity: O(mn)
+Space complexity: O(10000). (O(1))
