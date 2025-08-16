@@ -1,0 +1,3 @@
+Let N be the length of strings and K be the maximum length of a string in strings.
+
+Time and Space Complexity: O(NK)
