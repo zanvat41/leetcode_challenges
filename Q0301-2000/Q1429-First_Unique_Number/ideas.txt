@@ -1,0 +1,8 @@
+Use queue and hashmap.
+
+Let K be the length of the initial array passed into the constructor.
+
+Let N be the total number of items added onto the queue so far (including those from the constructor).
+
+Time complexity: O(K) for FirstUnique, O(N) or O(1) for showFirstUnique, O(1) for add.
+Space complexity : O(N).
