@@ -1,0 +1,5 @@
+Mark then add tag.
+
+Let n be s.length, m be words.length, and k be the average length of the words.
+Time complexity: O(m⋅(kn^2−n⋅k^2))
+Space complexity: O(n).
