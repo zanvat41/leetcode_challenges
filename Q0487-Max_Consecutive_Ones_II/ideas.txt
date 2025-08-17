@@ -1,4 +1,0 @@
-Use Sliding Window.
-
-Time complexity: O(n).
-Space complexity : O(1).

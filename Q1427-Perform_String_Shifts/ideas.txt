@@ -1,6 +1,0 @@
-Count net shifts.
-
-Let L be the length of the string and N be the length of the shift array.
-
-Time complexity : O(N+L).
-Space complexity : O(L).

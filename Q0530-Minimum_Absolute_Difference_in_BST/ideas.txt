@@ -1,4 +1,0 @@
-Use in order traversal since it will traverse the nodes in sorted order.
-
-Time complexity: O(N).
-Space complexity: O(N).

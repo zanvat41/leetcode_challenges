@@ -1,2 +1,0 @@
-Time Complexity: O(N^2). B is the size of bank
-Space Complexity: O(logN).

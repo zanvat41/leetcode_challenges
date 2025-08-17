@@ -1,2 +1,0 @@
-Time complexity: O(ST), where T is length of target and S is length of source.
-Space complexity: O(1).

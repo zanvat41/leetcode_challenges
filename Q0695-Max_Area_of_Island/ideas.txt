@@ -1,4 +1,0 @@
-Use dfs.
-
-Time Complexity: O(R∗C).
-Space Complexity: O(1) extra space used.

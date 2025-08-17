@@ -1,5 +1,0 @@
-Build the graph then do DFS.
-
-Let N be the number of input equations and M be the number of queries.
-Time Complexity: O(MN).
-Space Complexity: O(N).

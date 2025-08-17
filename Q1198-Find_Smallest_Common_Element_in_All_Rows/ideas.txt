@@ -1,5 +1,0 @@
-Since each row is sorted, and we iterate the rows from left to right,
-the element that meets the requirement first is the result.
-
-Time complexity: O(mn)
-Space complexity: O(10000). (O(1))
