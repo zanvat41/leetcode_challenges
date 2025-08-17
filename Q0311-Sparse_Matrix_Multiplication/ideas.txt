@@ -1,0 +1,4 @@
+Let m and k represent the number of rows and columns in mat1, respectively. Likewise, let k and n represent the number of rows and columns in mat2, respectively.
+
+Time complexity: O(mnk).
+Space complexity : O(mk+kn).
