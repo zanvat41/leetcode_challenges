@@ -1,0 +1,4 @@
+Sort and see if there are overlaps.
+
+Time Complexity: O(nlogn).
+Space Complexity: O(logn).
