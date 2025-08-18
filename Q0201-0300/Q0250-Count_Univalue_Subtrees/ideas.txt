@@ -1,0 +1,3 @@
+dfs. Record the increasing and decreasing sequences length.
+Time complexity: O(N).
+Space complexity : O(N).
