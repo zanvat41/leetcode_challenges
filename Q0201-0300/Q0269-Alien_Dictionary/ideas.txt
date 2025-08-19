@@ -1,0 +1,4 @@
+bfs
+Let C be the total length of all the words in the input list, added together.
+Time complexity: O(C).
+Space complexity : O(1).
