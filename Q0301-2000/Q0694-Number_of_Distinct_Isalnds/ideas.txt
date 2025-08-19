@@ -1,2 +1,4 @@
+Hash by path signature
+
 Time complexity: O(mn).
 Space complexity : O(mn).
