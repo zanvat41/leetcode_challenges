@@ -1,0 +1,5 @@
+binary search
+let range be max_val-min_val
+
+Time complexity: O(n*log(range*10^5)))
+Space complexity : O(1).
