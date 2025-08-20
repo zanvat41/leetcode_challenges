@@ -1,0 +1,5 @@
+binary search
+Let n be the number of chunks in the chocolate and S be the total sweetness of the chocolate bar.
+
+Time complexity: O(n*log(S/(k+1)))
+Space complexity : O(1).
