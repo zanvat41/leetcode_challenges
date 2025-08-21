@@ -1,0 +1,4 @@
+Let n denote the total number of characters across all strings in the input list and k denote the number of strings.
+
+Time complexity: O(n).
+Space complexity : O(k).
