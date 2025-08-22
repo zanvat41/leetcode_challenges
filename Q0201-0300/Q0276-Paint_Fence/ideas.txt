@@ -1,0 +1,4 @@
+dp[i] = (k-1)*(dp[i-1]+dp[i-2])
+
+Time complexity: O(n).
+Space complexity: O(1).
