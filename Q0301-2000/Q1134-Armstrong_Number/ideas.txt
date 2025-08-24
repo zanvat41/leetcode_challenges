@@ -1,0 +1,2 @@
+Time complexity: O(K). K is digits of the input number
+Space complexity: O(1).
